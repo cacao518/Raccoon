@@ -1,0 +1,414 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#include ""res\\RacoonRev.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""      // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_RACCOON             ICON                    "res\\Raccoon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_MAP_F               BITMAP                  "res\\map_f.bmp"
+IDB_MAP_B               BITMAP                  "res\\map_b.bmp"
+IDB_MAP_C               BITMAP                  "res\\map_c.bmp"
+IDB_MAP_D               BITMAP                  "res\\map_d.bmp"
+IDB_MAP_E               BITMAP                  "res\\map_e.bmp"
+IDB_MAP_A               BITMAP                  "res\\map_a.bmp"
+IDB_MAP_R               BITMAP                  "res\\map_r.bmp"
+IDB_MAP_N               BITMAP                  "res\\map_n.bmp"
+IDB_SCORE               BITMAP                  "res\\score.bmp"
+IDB_DIGIT               BITMAP                  "res\\digit.bmp"
+IDB_DIGIT_SM            BITMAP                  "res\\digit_sm.bmp"
+IDB_BONUS               BITMAP                  "res\\bonus.bmp"
+IDB_NEXT                BITMAP                  "res\\next.bmp"
+IDB_SURPRISE            BITMAP                  "res\\surprise.bmp"
+IDB_ENEMY_RIGHT         BITMAP                  "res\\EnemyRight.bmp"
+IDB_ENEMY_LEFT          BITMAP                  "res\\EnemyLeft.bmp"
+IDB_ENEMY_RIGHT_RED     BITMAP                  "res\\EnemyRightRed.bmp"
+IDB_ENEMY_LEFT_RED      BITMAP                  "res\\EnemyLeftRed.bmp"
+IDB_MAP_S               BITMAP                  "res\\map_s.bmp"
+IDB_SNAKE_LEFT          BITMAP                  "res\\SnakeLeft.bmp"
+IDB_SNAKE_RIGHT         BITMAP                  "res\\SnakeRight.bmp"
+IDB_MAP_T               BITMAP                  "res\\map_t.bmp"
+IDB_LETS                BITMAP                  "res\\Lets.bmp"
+IDB_BABY                BITMAP                  "res\\baby.bmp"
+IDB_ENDING              BITMAP                  "res\\ending.bmp"
+IDB_BKG                 BITMAP                  "res\\bkg.bmp"
+IDB_AttackLeft          BITMAP                  "res\\AttackLeft.bmp"
+IDB_AttackRight         BITMAP                  "res\\AttackRight.bmp"
+IDB_JumpLeft            BITMAP                  "res\\JumpLeft.bmp"
+IDB_JumpRight           BITMAP                  "res\\JumpRight.bmp"
+IDB_MoveLeft            BITMAP                  "res\\MoveLeft.bmp"
+IDB_MoveRight           BITMAP                  "res\\MoveRight.bmp"
+IDB_StandLeft           BITMAP                  "res\\StandLeft.bmp"
+IDB_StandRight          BITMAP                  "res\\StandRight.bmp"
+IDB_Up                  BITMAP                  "res\\Up.bmp"
+IDB_DropRight           BITMAP                  "res\\DropLeft.bmp"
+IDB_DropLeft            BITMAP                  "res\\DropRight.bmp"
+IDB_JumpLeftR           BITMAP                  "res\\JumpLeftL.bmp"
+IDB_JumpRightR          BITMAP                  "res\\JumpRightR.bmp"
+IDB_DeadLeft            BITMAP                  "res\\die.bmp"
+IDB_DeadRight           BITMAP                  "res\\die2.bmp"
+IDB_Back1               BITMAP                  "res\\back1.bmp"
+IDB_Back2               BITMAP                  "res\\back2.bmp"
+IDB_TILE	            BITMAP                  "res\\tile.bmp"
+IDB_DJumpLeft           BITMAP                  "res\\DJumpLeft.bmp"
+IDB_DJumpRight          BITMAP                  "res\\DJumpRight.bmp"
+IDB_STG2_BKG	        BITMAP                  "res\\stage2_bkg.bmp"
+IDB_STG3_BKG	        BITMAP                  "res\\stage3_bkg.bmp"
+IDB_STG2_OBJ			BITMAP                  "res\\stage2_objects.bmp"
+IDB_STG3_OBJ			BITMAP                  "res\\stage3_objects.bmp"
+IDB_HEARTS				BITMAP                  "res\\hearts.bmp"
+IDB_GAMEINTRO			BITMAP                  "res\\gameintro.bmp"
+IDB_GAMEOVER			BITMAP                  "res\\gameover.bmp"
+IDB_GAMECLEAR			BITMAP                  "res\\gameclear.bmp"
+IDB_LIFE				BITMAP					"res\\life.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_INTRO               WAVE                    "wav\\intro.wav"
+IDR_RAC_STEP            WAVE                    "wav\\rac_step.wav"
+IDR_RAC_JUMP            WAVE                    "wav\\rac_jump.wav"
+IDR_RAC_EAT             WAVE                    "wav\\rac_eat.wav"
+IDR_RAC_DROP            WAVE                    "wav\\rac_drop.wav"
+IDR_RAC_DIE             WAVE                    "wav\\rac_die.wav"
+IDR_GAMEOVER            WAVE                    "wav\\gameover.wav"
+IDR_CLEAR               WAVE                    "wav\\clear.wav"
+IDR_SNAKE               WAVE                    "wav\\snake.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXT
+//
+
+IDR_MAP                 TEXT                    "res\\map.txt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 영어(미국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About RacoonRev...",         ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About RacoonRev"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDI_RACCOON,IDC_STATIC,14,14,21,20
+    LTEXT           "RacoonRev, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2016",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "RacoonRev"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "RacoonRev.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "RacoonRev.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "RacoonRev"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "RacoonRev"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle Status Bar"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+#endif    // 영어(미국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#include "afxres.rc"      // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

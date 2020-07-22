@@ -1,0 +1,20 @@
+﻿  stdafx.cpp
+  ChildView.cpp
+  DrawBmp.cpp
+  GameSys.cpp
+C:\Users\cacao\Desktop\네오플 제주 아카데미 준비\포트폴리오\너구리\GameSys.cpp(613,1): warning C4005: 'GWL_HINSTANCE': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(1912): message : 'GWL_HINSTANCE'의 이전 정의를 참조하십시오.
+C:\Users\cacao\Desktop\네오플 제주 아카데미 준비\포트폴리오\너구리\GameSys.cpp(732,7): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+C:\Users\cacao\Desktop\네오플 제주 아카데미 준비\포트폴리오\너구리\GameSys.cpp(925,8): warning C4101: 'upOrDown' :참조되지 않은 지역 변수입니다.
+C:\Users\cacao\Desktop\네오플 제주 아카데미 준비\포트폴리오\너구리\GameSys.cpp(1780,28): warning C4101: 'cj2' :참조되지 않은 지역 변수입니다.
+C:\Users\cacao\Desktop\네오플 제주 아카데미 준비\포트폴리오\너구리\GameSys.cpp(1780,23): warning C4101: 'ci2' :참조되지 않은 지역 변수입니다.
+C:\Users\cacao\Desktop\네오플 제주 아카데미 준비\포트폴리오\너구리\GameSys.cpp(1780,13): warning C4101: 'ci1' :참조되지 않은 지역 변수입니다.
+C:\Users\cacao\Desktop\네오플 제주 아카데미 준비\포트폴리오\너구리\GameSys.cpp(1780,18): warning C4101: 'cj1' :참조되지 않은 지역 변수입니다.
+C:\Users\cacao\Desktop\네오플 제주 아카데미 준비\포트폴리오\너구리\GameSys.cpp(2216,77): warning C4305: '인수': 'int'에서 'bool'(으)로 잘립니다.
+  MainFrm.cpp
+  RaccoonRev.cpp
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 400 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  RaccoonRev.vcxproj -> C:\Users\cacao\Desktop\네오플 제주 아카데미 준비\포트폴리오\너구리\Release\RaccoonRev.exe
